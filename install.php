@@ -155,7 +155,7 @@ else
 
 	// Validate database password
 	if ($db_password1 != $db_password2)
-		$alerts[] = 'データベースのパスワードが不一致です。';
+		$alerts[] = 'データベースのパスワードが一致しません。';
 
 	// Validate username and passwords
 	if (pun_strlen($username) < 2)
