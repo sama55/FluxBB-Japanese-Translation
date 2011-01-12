@@ -5,6 +5,7 @@
  * based on code by Rickard Andersson copyright (C) 2002-2008 PunBB
  * License: http://www.gnu.org/licenses/gpl.html GPL version 2 or higher
  */
+/* test sama55 */
 
 // The FluxBB version this script installs
 define('FORUM_VERSION', '1.4.2');
