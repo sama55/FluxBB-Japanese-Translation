@@ -333,7 +333,7 @@ foreach ($alerts as $cur_alert)
 				<fieldset>
 					<legend>データベースホスト</legend>
 					<div class="infldset">
-						<p>データベースサーバーのアドレス（例： localhost, db.myhost.com や 192.168.0.15）を入力しますい。デフォルトのポート番号で動かない場合は、ポート番号も指定できます（例： localhost:3580）。SQLite の場合は、任意の文字列か 'localhost' のままにします。</p>
+						<p>データベースサーバーのアドレス（例： localhost, db.myhost.com や 192.168.0.15）を入力します。デフォルトのポート番号で動かない場合は、ポート番号も指定できます（例： localhost:3580）。SQLite の場合は、任意の文字列か 'localhost' のままにします。</p>
 						<label class="required"><strong>データベースホスト <span>(Required)</span></strong><br /><input type="text" name="req_db_host" value="<?php echo pun_htmlspecialchars($db_host) ?>" size="50" maxlength="100" /><br /></label>
 					</div>
 				</fieldset>
@@ -409,7 +409,7 @@ foreach ($alerts as $cur_alert)
 				<fieldset>
 					<legend>タイトル</legend>
 					<div class="infldset">
-						<p>フォーラムのタイトルを入力します。すべてのページの頭に表示されます。</p>
+						<p>フォーラムのタイトルを入力します。すべてのページの先頭に表示されます。</p>
 						<label class="required"><strong>タイトル <span>(Required)</span></strong><br /><input id="req_title" type="text" name="req_title" value="<?php echo pun_htmlspecialchars($title) ?>" size="60" maxlength="255" /><br /></label>
 					</div>
 				</fieldset>
@@ -418,7 +418,7 @@ foreach ($alerts as $cur_alert)
 				<fieldset>
 					<legend>説明</legend>
 					<div class="infldset">
-						<p>フォーラムの説明を簡潔に入力します。すべてのページの頭に表示されます。（HTML可）</p>
+						<p>フォーラムの説明を簡潔に入力します。すべてのページの先頭に表示されます。（HTML可）</p>
 						<label><strong>説明</strong><br /><input id="desc" type="text" name="desc" value="<?php echo pun_htmlspecialchars($description) ?>" size="60" maxlength="255" /><br /></label>
 					</div>
 				</fieldset>
