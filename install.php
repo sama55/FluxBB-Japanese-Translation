@@ -33,7 +33,7 @@ if (file_exists(PUN_ROOT.'config.php'))
 
 	// If PUN is defined, config.php is probably valid and thus the software is installed
 	if (defined('PUN'))
-		exit('FluxBBはインストールされていますよ。<a href="index.php">こちら</a> からアクセスしてください。');
+		exit('FluxBBはインストールされています。<a href="index.php">こちら</a> からアクセスしてください。');
 }
 
 // Define PUN because email.php requires it
