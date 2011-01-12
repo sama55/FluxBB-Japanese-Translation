@@ -363,7 +363,7 @@ foreach ($alerts as $cur_alert)
 				<fieldset>
 					<legend>プレフィックス</legend>
 					<div class="infldset">
-						<p>テーブル名の頭に任意の文字列（例： foo_）を付加できます。一つのデータベースに複数のシステムをインストールする場合に使用します。</p>
+						<p>テーブル名の先頭に任意の文字列（例： foo_）を付加できます。一つのデータベースに複数のシステムをインストールする場合に使用します。</p>
 						<label>プレフィックス<br /><input id="db_prefix" type="text" name="db_prefix" value="<?php echo pun_htmlspecialchars($db_prefix) ?>" size="20" maxlength="30" /><br /></label>
 					</div>
 				</fieldset>
