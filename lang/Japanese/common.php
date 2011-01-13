@@ -103,7 +103,7 @@ $lang_common = array(
 'Last visit'						=>	'最終訪問: %s',
 'Show new posts'					=>	'新しい投稿を表示',
 'Mark all as read'					=>	'すべてのトピックを既読にする',
-'Mark forum read'					=>	'このフォーラムを既読にする',
+'Mark forum read'					=>	'このフォーラムを既読にする', // push test
 'Title separator'					=>	' / ',
 
 // Stuff for the page footer
