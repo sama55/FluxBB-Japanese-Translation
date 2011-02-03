@@ -164,6 +164,6 @@ $lang_common = array(
 
 // Admin related stuff in the header
 'New reports'						=>	'新しい通報があります。',
-'Maintenance mode enabled'			=>	'メンテナンスモードが可能です！',
+'Maintenance mode enabled'			=>	'メンテナンスモード中',
 
 );
