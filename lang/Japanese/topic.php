@@ -27,5 +27,6 @@ $lang_topic = array(
 'Mod controls'		=>	'モデレータ管理セクション',
 'New icon'			=>	'新しい投稿',
 'Re'				=>	'Re:'
+'Preview'			=>	'プレビュー'
 
 );
