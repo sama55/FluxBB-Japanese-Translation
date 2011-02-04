@@ -1568,7 +1568,7 @@ else
 		'o_rules'					=> "'0'",
 		'o_rules_message'			=> "'利用規約を入力'",
 		'o_maintenance'				=> "'0'",
-		'o_maintenance_message'		=> "'フォーラムはテンテナンス中です。少し経ってからアクセスしてください。<br />\\n<br />\\n管理者'",
+		'o_maintenance_message'		=> "'フォーラムはメンテナンス中です。少し経ってからアクセスしてください。<br />\\n<br />\\n管理者'",
 		'o_default_dst'				=> "'0'",
 		'o_feed_type'				=> "'2'",
 		'p_message_bbcode'			=> "'1'",
